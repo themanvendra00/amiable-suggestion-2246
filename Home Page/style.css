@@ -1,0 +1,236 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #333;
+    font-size: 100%;
+    line-height: 1em;
+}
+#nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 90%;
+    margin: auto;
+}
+#nav-container>#logo>img{
+    width: 300px;
+}
+#nav-container>#services{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+#nav-container>#services>div:hover{
+    color: #217e9e;
+}
+nav ul{
+    position: absolute;
+    list-style: none;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    background-color: #fff;
+    top: 100px;
+    width: 300px;
+    left: 45%;
+    border-radius: 10px;
+    display: none;
+}
+[id^=btn]:checked + ul{
+    display: block;
+}
+nav .menu::before{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    left: 150px;
+    top: -10px;
+    transform: rotate(45deg);
+    /* z-index: -1; */
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+nav ul li div:nth-child(1){
+    width: 80px;
+    margin-left: -30px;
+}
+nav ul li div:nth-child(1) img{
+    width: 80%;
+}
+nav ul li div:nth-child(2){
+    line-height: 10px;
+}
+nav ul li div:nth-child(2) p:nth-child(1){
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    font-weight: 600;
+}
+nav ul li div:nth-child(2) p:nth-child(1):hover{
+    color: #217e9e;
+}
+nav ul li div:nth-child(2) p:nth-child(2){
+    color: #afafaf;
+    font-size: 14px;
+}
+#btn{
+    display: none;
+}
+#nav-container>#services>div>button{
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #217e9e;
+    color: #217e9e;
+}
+#nav-container>#services>div>button:hover{
+    background-color: #f3f3f3;
+}
+#box-1{
+    width: 60%;
+    margin: auto;
+}
+#box-1>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#box-1>div>div{
+    width: 500px;
+}
+#box-1>div>div>h1{
+    font-size: 3em;
+    line-height: .5em;
+    font-weight: 700;
+    color: #4f4e53;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+#box-1>div>div>h1+p{
+    font-size: 30px;
+    line-height: 40px;
+    color: #555;
+    letter-spacing: 2px;
+}
+#box-1>div>div>button{
+    font-size: 20px;
+    color: white;
+    background-color: #217e9e;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#box-1>div>div>button+p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+#box-1>div>div>button+p>a{
+    color: #111;
+}
+#box-1>div>div>button+p>a:hover{
+    color: #217e9e;
+}
+#box-2{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+#box-2>p{
+    font-size: 25px;
+    margin-top: 6%;
+}
+#box-2>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box-2>div:nth-child(4){
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#box-2>div>div>img{
+    width: 80%;
+}
+#box-2>div:nth-child(4)>div>img{
+    width: 200px;
+}
+#box-3{
+    width: 100%;
+    height: 700px;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-top: 5%;
+}
+#box-31{
+    padding-top: 80px;
+    width: 30%;
+    margin: auto;
+}
+#box-31>h2,#box-41>h2{
+    font-size: 35px;
+    color: #4f4e53;
+}
+#box-31>p,#box-41>p{
+    font-size: 25px;
+    line-height: 35px;
+    color: #4f4e53;
+}
+#box-32{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#box-32>div{
+    width: 30%;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+#box-32>div>h3,#box-42>div>h3{
+    font-size: 22px;
+    color: #4f4e53;
+    font-weight: 600;
+    line-height: 25px;
+}
+#box-32>div>p,#box-42>div>p{
+    font-size: 18px;
+    line-height: 25px;
+}
+#box-32>div>img,#box-42>div>img{
+    width: 100px;
+    height: 100px;
+}
+#box-4{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+#box-41{
+    width: 29%;
+    margin: auto;
+    padding: 80px 0px;
+}
+#box-42{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+}
+#box-42>div{
+    padding: 0px 40px;
+}
