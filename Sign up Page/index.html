@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Swasthya : Create your free account</title>
+</head>
+<body>
+    <nav>
+        <img src="logo2.png" alt="">
+    </nav>
+    <h1>Create Your Free Account</h1>
+    <form action="index.html">
+        <input type="text" placeholder="Email Address">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confrim Password">
+    </form>
+    <div class="section body_form">
+        <h2>Your Body Type</h2>
+        <div>
+            <div>
+                <label class="typelabel">Sex:</label>
+                <span class="typespan">
+                    <div class="radio-item">
+                        <input type="radio" id="maleradio" name="gander" value="Male">
+                        <label for="maleradio">
+                            Male
+                        </label>
+                        <div class="radio-item">
+                            <input type="radio" id="femaleradio" name="gander" value="Female">
+                            <label for="femaleradio">
+                                Female
+                            </label>
+                    </div>
+                </span>
+            </div>
+            <div>
+                <label class="typelabel">Born:</label>
+                <span class="typespan">
+                    <select name="day" id="day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="monthselect">
+                        <option value="January" selected="selected">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <input type="number" id="year" name="year" maxlength="4" value="1985" max="2022" min="1912">
+                </span>
+            </div>
+            <div>
+                <label class="typelabel">Height</label>
+                <span class="typespan">
+                    <select name="heigth-feet" id="heigth-feet">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                    &nbsp;'&nbsp;
+                    <select name="height-inches" id="height-inches">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                    &nbsp;&nbsp; /&nbsp;
+                    <input type="number" id="hightcentimeter" name="hight-cm" min="1" max="300" maxlength="3" value="165">
+                </span>
+            </div>
+            <div>
+                <label class="typelabel">Weight:</label>
+                <span class="typespan">
+                    <input type="number" id="weightnum" name="weight" min="1" max="2000" maxlength="4" value="150">
+                    <select name="weight-unit" id="weighttype">
+                        <option value="Pounds">Pounds</option>
+                        <option value="Kilogram">Kilogram</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
