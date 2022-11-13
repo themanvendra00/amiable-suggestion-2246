@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+form{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 40px;
+    border-radius: 5px;
+}
+form>img{
+    width: 60%;
+    margin-bottom: 40px;
+}
+form>input{
+    width: 95%;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+}
+#submit{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: #056f92;
+    color: white;
+    font-size: 16px;
+}
+form>p{
+    color: #4f4e53;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 10%;
+}
+a{
+    color: #056f92;
+}
+.strip{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.strip>li{
+    margin: 0px 20px;
+    color: #056f92;
+    font-weight: 550;
+}
+span{
+    color: #4f4e53;
+}
+.strip>li:nth-child(1),.strip>li:nth-child(6){
+    list-style-type: none;
+}
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #4f4e53;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 200px;
+}
+.copyright{
+
+    text-align: center;
+}
+.apps>img{
+    width: 30%;
+}
+.copyright>img{
+    width: 50%;
+}
+.copyright>p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+.social{
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    right: 20px;
+}
+.social>i:hover,.copyright>p:hover{
+    color: #056f92;
+}
+.sbtn{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    background-color: #27ae60;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+}
+.sbtn>span{
+    color: white;
+    font-size: 20px;
+}
