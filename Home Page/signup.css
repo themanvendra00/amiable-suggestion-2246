@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    text-align: center;
+    padding: 10px 0;
+}
+nav>img{
+    width: 12%;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 1.8em;
+    color: #2e2e2e;
+}
+form{
+    width: 570px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px 30px;
+}
+form>input{
+    width: 95%;
+    margin: 3px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 102, 102)
+}
+.box-2{
+    width: 570px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px 30px;
+    font-size: 12px;
+}
+.box-2>h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2e2e2e;
+    margin-bottom: 3%;
+}
+table{
+    width: 75%;
+    font-weight: bold;
+}
+table td{
+    padding: 5px 0;
+}
+.box-2>input{
+    outline: none;
+}
+td:nth-child(1){
+    text-align: right;
+    padding: 0 20px;
+}
+.btn{
+    width: 570px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.btn>button{
+    padding: 15px 230px;
+    font-weight: bold;
+    background-color: #056f92; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.help{
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+}
+.help>p{
+    color: #2e2e2e;
+    font-weight: bold;
+}
+.help>a{
+    color: #056f92;
+}

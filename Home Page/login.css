@@ -6,7 +6,7 @@ body{
     font-family: sans-serif;
 }
 .container{
-    width: 40%;
+    width: 800px;
     height: 400px;
     margin: auto;
     text-align: center;
@@ -32,13 +32,15 @@ form>input{
     border-radius: 5px;
     border: 1px solid rgb(209, 209, 209);
 }
-form>button{
+#submit{
     width: 100%;
     padding: 10px 0px;
     margin: 5px 0;
     font-weight: bolder;
     border-radius: 5px;
     border: 1px solid rgb(209, 209, 209);
+    background-color: #056f92;
+    color: white;
     font-size: 16px;
 }
 form>p{
